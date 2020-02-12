@@ -25,7 +25,7 @@ void osqp_set_default_settings(OSQPSettings *settings) {
 
   settings->rho           = (c_float)RHO;            /* ADMM step */
   settings->sigma         = (c_float)SIGMA;          /* ADMM step */
-  settings->scaling = SCALING;                       /* heuristic problem scaling */
+  settings->scaling = OSQPSCALING;                       /* heuristic problem scaling */
 #if EMBEDDED != 1
   settings->adaptive_rho           = ADAPTIVE_RHO;
   settings->adaptive_rho_interval  = ADAPTIVE_RHO_INTERVAL;

@@ -82,7 +82,7 @@ extern const char * OSQP_ERROR_MESSAGE[];
 # define SCALED_TERMINATION (0)
 # define CHECK_TERMINATION (25)
 # define WARM_START (1)
-# define SCALING (10)
+# define OSQPSCALING (10)
 
 # define MIN_SCALING (1e-04) ///< minimum scaling value
 # define MAX_SCALING (1e+04) ///< maximum scaling value
